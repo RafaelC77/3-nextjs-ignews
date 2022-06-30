@@ -1,0 +1,26 @@
+{
+  "id": "6c272f42-9da6-473e-9d57-1ffaf2534734",
+  "uid": "est-est-et",
+  "type": "publication",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Monetize leading-edge supply-chains",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "heading1",
+        "text": "Productize revolutionary eyeballs",
+        "spans": []
+      },
+      {
+        "type": "paragraph",
+        "text": "Do ad sit reprehenderit non laborum id culpa anim in anim amet duis ullamco. Officia nisi in non enim occaecat aute nisi dolor sint fugiat commodo aute in in aute.",
+        "spans": []
+      }
+    ]
+  }
+}
