@@ -13,6 +13,23 @@ interface HomeProps {
   };
 }
 
+/*
+Formas de renderização
+
+- Client Side
+
+  A renderização ocorre no cliente. O conteúdo da página não renderiza imediatamente, o que prejudica a indexeção pelos motores de busca.
+
+- Server Side
+
+  As chamadas ao back-end são feitas no servidor. Ao ser carregada a página, o conteúdo já está disponível.
+
+- Static Site Generation
+
+  Ao ser realizado o primeiro acesso pelo cliente, o servidor gera uma página estática que será acessada por todas as requisições posteriores,
+até que seja renovada no período definido. 
+*/
+
 export default function Home({ product }: HomeProps) {
   return (
     <>
@@ -33,7 +50,7 @@ export default function Home({ product }: HomeProps) {
           <SubscribeButton />
         </section>
 
-        <img src="/images/avatar.svg" alt="Girl conding" />
+        <img src="/images/avatar.svg" alt="Girl coding" />
       </main>
     </>
   );
